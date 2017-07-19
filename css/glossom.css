@@ -1,0 +1,154 @@
+body {
+    font-family:"Helvetica Neue",Helvetica,Verdana,Arial,sans-serif;
+}
+.glossom_collection div,
+.glossom_collection span,
+.glossom_collection h1,
+.glossom_collection h2,
+.glossom_collection h3,
+.glossom_collection h4,
+.glossom_collection p,
+.glossom_collection a,
+.glossom_collection img,
+.glossom_collection strong,
+.glossom_collection small,
+.glossom_collection b,
+.glossom_collection i,
+.glossom_collection label
+{
+    margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+.glossom_collection {
+    font-family:"Helvetica Neue",Helvetica,Verdana,Arial,sans-serif;
+}
+
+.glossom_collection .collection_element {
+    overflow:hidden;
+}
+
+.glossom_collection .collection_item_preview {
+    max-width:400px;
+    z-index:50;
+}
+
+.glossom_collection .collection_item_preview img {
+    border: 1px solid #989898;
+    max-height: 400px;
+    max-width: 400px;
+    min-height: 163px;
+    min-width: 217px;
+    position: relative;
+}
+
+.glossom_collection .collection_item_tooltip {
+    position:relative;
+    display:inline-block;
+    font-size:14px;
+    color:white;
+    background:black;
+    margin-top:-10px;
+    margin-left:-10px;
+    z-index: 100;
+}
+
+.glossom_collection .collection_item_tooltip a {
+    color:white;
+    text-decoration:none;
+}
+
+.glossom_collection .collection_item_name {
+    max-width:190px;
+    overflow:hidden;
+}
+
+.glossom_collection .collection_item_tooltip a.title {
+    font-size:24px;
+    line-height:24px;
+    height:26px;
+    display:inline-block;
+    overflow:hidden;
+    margin-bottom:0;
+    padding-bottom:0;
+}
+
+.glossom_collection .collection_item_thumbnail {
+    float:left;
+    display:inline-block;
+    margin:10px;
+}
+
+.ie7 .glossom_collection .collection_item_thumbnail {
+    padding-bottom: 10px;
+}
+
+.glossom_collection .collection_item_info {
+    display:inline-block;
+    margin:10px 10px 30px;
+    position:relative;
+    text-align:left;
+    width:200px;
+}
+
+.glossom_collection .collection_item_desc {
+    font-size:11px;
+    line-height:12px;
+    margin-top:10px;
+    margin-bottom:0;
+    overflow:hidden;
+}
+
+.glossom_collection .collection_item_copyright {
+    margin-top:0px;
+}
+
+.glossom_collection .collection_item_uploaded_by {
+    margin-top:10px;
+    position:absolute;
+    bottom:10px;
+    margin-left:10px;
+    right:10px;
+    text-align:right;
+    width:100%;
+    font-size:11px;
+    line-height:12px;
+}
+
+.glossom_collection .click_me {
+    cursor: pointer;
+}
+
+.glossom_collection .collection_error {
+    border: 1px solid #CCC;
+}
+
+.glossom_collection .grayout {
+    display:none;
+    background:gray;
+    opacity:0.7;
+}
+
+.glossom_collection_container {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.ie7 .glossom_collection .collection_item_tooltip,
+.ie7 .glossom_collection #collection_tags ul li,
+.ie7 .glossom_collection #cancel_container,
+.ie7 .glossom_collection #submit_container,
+.ie7 .glossom_collection .collection_item_info,
+.ie7 .glossom_collection .collection_item_thumbnail,
+.ie7 .glossom_collection .collection_item_tooltip a.title {
+    zoom:1;
+    display:inline;
+}
+.ie7 .glossom_collection .collection_item_thumbnail {
+    padding-bottom: 10px;
+}
